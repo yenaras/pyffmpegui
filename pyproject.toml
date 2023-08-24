@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyffmpegui"
+version = "0.1.0"
+description = "GUI for FFMPEG written in Python with PyQt5"
+authors = ["yenaras <brandon82890@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt5 = "^5.15.9"
+python-ffmpeg = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
