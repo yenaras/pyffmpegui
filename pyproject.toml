@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pyqt5 = "^5.15.9"
-python-ffmpeg = "^2.0.4"
+ffmpeg-python = "^0.2.0"
 
 
 [build-system]

@@ -180,17 +180,17 @@
        </property>
        <item>
         <property name="text">
-         <string>mp4</string>
+         <string>.mp4</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>mkv</string>
+         <string>.mkv</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>gif</string>
+         <string>.gif</string>
         </property>
        </item>
       </widget>
