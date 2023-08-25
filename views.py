@@ -8,9 +8,11 @@ from window import Ui_Window
 
 FILTERS = ";;".join(
     (
-        "MP4 Files (*.mp4)",
         "MKV Files (*.mkv)",
+        "MP4 Files (*.mp4)",
         "GIF Files (*.gif)",
+        "AVI Files (*.avi)",
+        "MOV Files (*.mov)",
     )
 )
 

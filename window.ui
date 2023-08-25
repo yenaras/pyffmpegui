@@ -193,6 +193,16 @@
          <string>.gif</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>.avi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>.mov</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item>
