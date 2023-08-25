@@ -82,7 +82,7 @@ class Window(QWidget, Ui_Window):
         # convert files with ffmpeg
         self.thread.started.connect(self.converter.convert_files)
         # update state
-        self.converter.converted_file.connect(self.updateStateWhenFilesConverted)
+        self.converter.converted_file.connect(self.updateStateWhenFileConverted)
         self.converter.progressed.connect(self.update_progress_bar)
         self.converter.finished.connect(self.updateStateWhenNoFiles)
         # clean up
@@ -92,9 +92,9 @@ class Window(QWidget, Ui_Window):
         # run the thread
         self.thread.start()
 
-    def updateStateWhenFilesConverted(self, new_file):
+    def updateStateWhenFileConverted(self, new_file):
         self.files.popleft()
-        self.srcFileList.TakeItem(0)
+        self.srcFileList.takeItem(0)
         self.dstFileList.addItem(str(new_file))
 
     def update_progress_bar(self, file_number):
