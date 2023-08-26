@@ -1,0 +1,7 @@
+ffmpeg-python==0.2.0
+future==0.18.3
+pyee==11.0.0
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.2
+typing_extensions==4.7.1
