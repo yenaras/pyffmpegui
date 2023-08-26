@@ -1,6 +1,8 @@
 # PYFFMPEGUI
 #### Video Demo: 
 todo
+
+![Example](assets/example.png)
 ---
 ### Description:
 
